@@ -8,9 +8,9 @@
 ## Dataset
 * Uploaded unto Mysql Database so that it would be effificent to add new data in future.
 * Table Description:
-1. sales = sales data
-2. sensor_storage_temperature = IoT data from the temperature sensors in the storage facility for the products
-3. sensor_stock_levels = estimated stock levels of products based on IoT sensors
+    1. sales = sales data
+    2. sensor_storage_temperature = IoT data from the temperature sensors in the storage facility for the products
+    3. sensor_stock_levels = estimated stock levels of products based on IoT sensors
 
 * Merged the three datasets, preprocessed and then transformed ready for modelling.
 
