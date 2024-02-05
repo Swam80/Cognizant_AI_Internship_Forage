@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn==1.2.1
+sqlalchemy
+pymysql
+joblib
+streamlit
+flask

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forage Cognizant : Gala Groceries Stock Level Prediction</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+        input[type="number"], input[type="text"], select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            border: none;
+            color: #fff;
+            background-color: #007BFF;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script>
+        function validateForm() {
+            var inputs = document.getElementsByTagName('input');
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].value === '') {
+                    alert('Please fill all fields');
+                    return false;
+                }
+            }
+            var select = document.getElementById('category');
+            if (select.value === '') {
+                alert('Please select a category');
+                return false;
+            }
+            return true;
+        }
+        
+
+    </script>
+</head>
+<body>
+    <h1> Forage Cognizant : Gala Groceries Stock Level Prediction</h1>
+    <form action="/" method="post" onsubmit="return validateForm()">
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity"><br>
+        <label for="temperature">Temperature:</label><br>
+        <input type="number" id="temperature" name="temperature" step="0.001"><br>
+        <label for="category">Category:</label><br>
+        <select id="category" name="category">
+            <option value="">Select a category</option>
+            <option value="kitchen">Kitchen</option>
+            <option value="vegetables">Vegetables</option>
+            <option value="baby products">Baby Products</option>
+            <option value="beverages">Beverages</option>
+            <option value="pets">Pets</option>
+            <option value="meat">Meat</option>
+            <option value="fruit">Fruit</option>
+            <option value="spices and herbs">Spices and Herbs</option>
+            <option value="frozen">Frozen</option>
+            <option value="medicine">Medicine</option>
+            <option value="baking">Baking</option>
+            <option value="personal care">Personal Care</option>
+            <option value="cleaning products">Cleaning Products</option>
+            <option value="dairy">Dairy</option>
+            <option value="condiments and sauces">Condiments and Sauces</option>
+            <option value="refrigerated items">Refrigerated Items</option>
+            <option value="packaged foods">Packaged Foods</option>
+            <option value="baked goods">Baked Goods</option>
+            <option value="snacks">Snacks</option>
+            <option value="cheese">Cheese</option>
+            <option value="canned foods">Canned Foods</option>
+            <option value="seafood">Seafood</option>
+        </select><br>
+        <label for="unit_price">Unit Price:</label><br>
+        <input type="number" id="unit_price" name="unit_price" step="0.001"><br>
+        <label for="day_of_month">Day of Month:</label><br>
+        <input type="number" id="day_of_month" name="day_of_month"><br>
+        <label for="hour">Hour:</label><br>
+        <input type="number" id="hour" name="hour"><br>
+        <input type="submit" value="Predict">
+    </form>
+    <h2> The predicted stock level % is {{result}} </h2>
+</body>
+</html>
