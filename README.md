@@ -1,4 +1,4 @@
-# Cognizant_AI_Internship_Forage
+# Cognizant AI Internship by Forage
 
 Welcome to Cognizant! We are so excited to have you here!
 
