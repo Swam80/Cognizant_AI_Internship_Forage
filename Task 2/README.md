@@ -9,4 +9,4 @@
 
 ## Data Model
 
-![](Task 2/data_model.JPG)
+![](https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/Task%202/data_model.JPG)
