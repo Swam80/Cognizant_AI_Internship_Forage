@@ -12,4 +12,4 @@ Welcome to Cognizant! We are so excited to have you here!
 * Flask : Webframework for the app.
 
 ## Here is the FLASK app UI developed in Task 4
-![] (https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/Task%204/UI.JPG)
+![](https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/Task%204/UI.JPG)
