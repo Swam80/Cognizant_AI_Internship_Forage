@@ -6,11 +6,13 @@
 * The key here is to use business-friendly language and to explain your results in a way that the business will understand. For example, ensure that when you’re summarizing the performance of the results you don’t use technical metrics, but rather convert it into numbers that they’ll understand. 
 
 ## Dataset
-Table Description:
-**sales = sales data
-**sensor_storage_temperature = IoT data from the temperature sensors in the storage facility for the products
-**sensor_stock_levels = estimated stock levels of products based on IoT sensors
+* Uploaded unto Mysql Database so that it would be effificent to add new data in future.
+* Table Description:
+1. sales = sales data
+2. sensor_storage_temperature = IoT data from the temperature sensors in the storage facility for the products
+3. sensor_stock_levels = estimated stock levels of products based on IoT sensors
 
+* Merged the three datasets, preprocessed and then transformed ready for modelling.
 
 ## Model Summary
 * Here is the [Model Summary](https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/Task%203/Model%20Summary.pdf)
