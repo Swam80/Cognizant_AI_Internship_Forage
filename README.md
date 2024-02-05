@@ -6,6 +6,12 @@ Welcome to Cognizant! We are so excited to have you here!
 
 * During this program, you will get the opportunity to step into the shoes of a Cognizant team member and complete tasks that replicate the work that our Artificial Intelligence team does every day. You’ll learn how to perform exploratory data analysis, communicate results of a machine learning model, implement algorithm production, and review algorithm performance.
 
+## Tasks
+* Task 1 : EDA
+* Task 2 : Data Model and Strategy Planning.
+* Task 3 : Model Training.
+* Task 4 : Modular Coding for production.
+  
 ## Tech Stack:
 * MySQL : Extract data from database for modular coding.
 * Python : EDA, Modelling.
