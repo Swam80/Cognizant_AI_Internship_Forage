@@ -1,0 +1,5 @@
+,model,best_params,best_score
+0,Random Forest,"{'n_estimators': 150, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_depth': 2}",0.22275898586423856
+1,SVR,"{'kernel': 'linear', 'gamma': 'scale', 'C': 10}",0.22281612216699723
+2,GradientBoosting,"{'n_estimators': 100, 'min_samples_split': 10, 'min_samples_leaf': 6, 'max_depth': 2, 'learning_rate': 0.01}",0.22272500826634206
+3,AdaboostRegressor,"{'n_estimators': 200, 'loss': 'square', 'learning_rate': 0.1}",0.22263641235211548
