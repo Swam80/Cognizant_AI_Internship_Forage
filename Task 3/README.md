@@ -6,3 +6,5 @@
 * The key here is to use business-friendly language and to explain your results in a way that the business will understand. For example, ensure that when you’re summarizing the performance of the results you don’t use technical metrics, but rather convert it into numbers that they’ll understand. 
 
 
+## Model Summary
+* here is the Model Summary ![](https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/Task%203/Model%20Summary.pdf)
