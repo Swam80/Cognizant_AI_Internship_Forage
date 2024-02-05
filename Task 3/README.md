@@ -7,4 +7,4 @@
 
 
 ## Model Summary
-* here is the Model Summary ![](https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/Task%203/Model%20Summary.pdf)
+* Here is the [Model Summary](https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/Task%203/Model%20Summary.pdf)
