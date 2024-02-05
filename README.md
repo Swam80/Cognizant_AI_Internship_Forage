@@ -16,4 +16,4 @@ Welcome to Cognizant! We are so excited to have you here!
 
 ## Certificate
 
-![](https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/certi.JPG)
+* ![](https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/certi.JPG)
