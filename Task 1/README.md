@@ -16,4 +16,4 @@
 * total = the total amount payable by the customer
 * payment_type = the payment method used by the customer
 
-## For detailed EDA, refer [EDA Notebook](https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/Task%201/EDA_cognizant.ipynb)
+For detailed EDA, refer [EDA Notebook](https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/Task%201/EDA_cognizant.ipynb)
