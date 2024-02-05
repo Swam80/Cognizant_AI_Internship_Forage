@@ -8,4 +8,4 @@
 
 
 ## Here is the FLASK app UI
-![](https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/Task%204/UI.JPG)
+![] (https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/Task%204/UI.JPG)
