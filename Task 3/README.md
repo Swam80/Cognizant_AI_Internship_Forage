@@ -13,6 +13,8 @@
     3. sensor_stock_levels = estimated stock levels of products based on IoT sensors
 
 * Merged the three datasets, preprocessed and then transformed ready for modelling.
+* Used Random Forest, SVR, GradientBoosting, Adaboost Regressor.
+* Hyperparameter tuned to narrow down best working model.
 
 ## Model Summary
 * Here is the [Model Summary](https://github.com/Swam80/Cognizant_AI_Internship_Forage/blob/main/Task%203/Model%20Summary.pdf)
